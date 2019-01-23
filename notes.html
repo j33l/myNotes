@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title>myNotes</title>
+		<style media="screen">
+			.notebox {
+				border: 20px;
+				color: green;
+				height: 200px;
+				width: 200px;
+				background-color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<form method="post" action="connect.php">
+			<table>
+				<tr>
+					<td><input type="text" name="username" placeholder="username"></td>
+				</tr>
+				<tr>
+					<td><input type="password" name="password" placeholder="password"></td>
+				</tr>
+				<tr>
+					<td><textarea name="note" placeholder="type your note here"></textarea></td>
+				</tr>
+			</table>
+			<button type="submit" value="submit">Save</button>
+			<button type="" value="notes">myNotes</button>
+		</form>
+	</body>
+</html>

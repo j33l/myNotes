@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title>myNotes</title>
+		<link rel="stylesheet" type="text/css" href="notes.css">
+	</head>
+	<body>
+		<h1 id="title">myNotes webApp</h1>
+		<form method="post" action="signin.php" id="myForm">
+			<table>
+				<tr>
+					<td><input type="text" name="username" id="username" placeholder="username"></td>
+				</tr>
+				<tr>
+					<td><input type="password" name="password" id="psw" placeholder="password"></td>
+				</tr>
+			</table>
+			<div class="buttons">
+				<button type="submit" value="submit" onclick="signin()">signIn</button>
+				<br /><hr>
+			    <button type="" value="signUp" onclick="signup()">signUp</button>
+			</div>
+		</form>
+	</body>
+</html>
