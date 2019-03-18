@@ -11,7 +11,7 @@
 	    die("ERROR: Could not connect. " . mysqli_connect_error());
 	}
 	else{
-		echo "<font color=green>connected! </font>";
+		echo "<font color=green>connected!</font>";
 	}
 
 ?>
